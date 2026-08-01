@@ -12,7 +12,7 @@
 ### Module 1 — The mental model of the web
 - [X] 1.1 — What happens when you type a URL and hit enter
 - [X] 1.2 — Client vs. server
-- [ ] 1.3 — HTTP: requests, responses, methods, status codes
+- [X] 1.3 — HTTP: requests, responses, methods, status codes
 - [ ] 1.4 — Domains, DNS, IP addresses
 - [ ] 1.5 — JSON
 - [ ] 1.6 — What an API actually is
