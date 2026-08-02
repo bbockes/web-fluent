@@ -3,6 +3,9 @@
 > This is my ledger. The pointer below is the single source of truth for where I am.
 > Claude reads this at the start of a lesson and tells me exactly what to check off at the end.
 
+## CURRENT LESSON
+**1.5 — JSON**
+
 ## Checklist
 
 ### Module 0 — Setup & how to learn
@@ -13,7 +16,7 @@
 - [X] 1.1 — What happens when you type a URL and hit enter
 - [X] 1.2 — Client vs. server
 - [X] 1.3 — HTTP: requests, responses, methods, status codes
-- [ ] 1.4 — Domains, DNS, IP addresses
+- [X] 1.4 — Domains, DNS, IP addresses
 - [ ] 1.5 — JSON
 - [ ] 1.6 — What an API actually is
 - [ ] 1.7 — Frontend vs. backend vs. database

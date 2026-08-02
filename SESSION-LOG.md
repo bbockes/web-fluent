@@ -36,6 +36,26 @@
 
 ---
 
+## Lesson 1.4 — Domains, DNS, and IP addresses
+**Date:** 2026-08-02  
+**Key takeaways:**
+- Domain name = human-friendly label; IP address = the machine location; DNS = the phone book that translates name → IP before any HTTP request can be sent.
+- Runtime sequence: domain → DNS lookup → IP → HTTP request → response.
+- Configuring a domain is publishing answers in that phone book — not the same job as buying the name or hosting the site.
+
+**Hands-on:** DNS lookup for `brendanbockes.com` → resolved to `71.126.156.42`.  
+**Connections made:**
+- Mapped his real setup: **registrar** (iwantmyname) vs **DNS provider** (nameservers — kept at registrar or handed to Netlify) vs **host** (Netlify, where the site actually runs).
+- Walked end-to-end: buy name → set A/CNAME (or change nameservers) → Netlify serves at an IP → every visit does the silent DNS lookup he just did manually.
+- Tied forward to Module 6 / headless thinking: the name is just a label; where traffic goes is whatever the DNS records say.
+
+**Tangents worth remembering:**
+- He recognized record types (A, AAAA, CNAME, MX) from a prior specialist role but hadn’t owned what they meant. Covered: A = IPv4 for web, AAAA = IPv6, CNAME = alias to another name, MX = email servers — different jobs, so one record type isn’t enough.
+- “DNS server” dropdown in lookup tools = which resolver you’re asking (e.g. Google), not the same as “my DNS provider” that holds authoritative records.
+- Strong mental model already of registrar → DNS → host; good to reuse his personal site as the concrete example in later lessons.
+
+---
+
 <!-- TEMPLATE FOR FUTURE ENTRIES
 
 ## Lesson X.Y — Title
