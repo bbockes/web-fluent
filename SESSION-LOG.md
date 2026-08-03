@@ -56,6 +56,23 @@
 
 ---
 
+## Lesson 1.5 — JSON
+**Date:** 2026-08-03
+**Key takeaways:**
+- JSON = JavaScript Object Notation, but it's not JavaScript — it's a plain-text, language-agnostic data format. Named after JS object syntax because that's where `{ }` / `[ ]` came from, but any language (Python, Java, PHP...) can read/write it with no JS involved.
+- `{ }` = object (one thing), `[ ]` = array (ordered list). The bracket type is the real signal — not commas, since objects use commas too.
+- HTML/CSS/JS render pages for humans to see; JSON carries data for programs to act on. That's the purpose split.
+- Landed cleanly on: JSON is a text format for moving data between systems, not a coding language — no logic, no functions, inert until something else (JS's `JSON.parse`, Python's `json` module) reads and acts on it.
+
+**Hands-on:** Wrote his own JSON object (name, job title, skills array, nested `learning` object) and validated it in a browser JSON validator — passed on first try.
+**Connections made:**
+- Noted `"job title"` (with a space) is valid JSON but awkward once you get to JS property access — real-world JSON usually uses `jobTitle` or `job_title`. Flagged as a forward-looking convention note, not a rule.
+
+**Tangents worth remembering:**
+- He asked good clarifying questions unprompted (JSON vs. JS relationship, "is JSON a language?") rather than just accepting the material — a good sign for how he engages with new concepts. Keep leaving room for him to interrogate definitions before moving on.
+
+---
+
 <!-- TEMPLATE FOR FUTURE ENTRIES
 
 ## Lesson X.Y — Title
