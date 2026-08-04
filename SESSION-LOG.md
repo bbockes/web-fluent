@@ -73,6 +73,24 @@
 
 ---
 
+## Lesson 1.6 — What an API actually is
+**Date:** 2026-08-04
+**Key takeaways:**
+- An API = a published contract letting one program request data/functionality from another over the web: HTTP request to an endpoint → HTTP response, usually JSON, back. Every API buzzword resolves to that sentence.
+- Menu analogy landed well: fixed set of endpoints (the menu) removes guesswork for the person ordering (the client).
+- Cleared up a GET/POST mix-up: responses are never labeled by method — only requests are GET (retrieve) or POST (submit/create). "POST request back" isn't a thing; it's just "the response."
+- Extended the concept himself to AI chat interfaces: chat UI = client, sends a POST (submitting a prompt) to the model's API endpoint, gets JSON back, renders it as a message bubble. Correctly reasoned POST vs. GET based on "sending data" vs. "just asking for something."
+
+**Hands-on:** Made real zero-code API calls by pasting public endpoint URLs into the browser address bar — a random dog-image API (name as a URL slug/path parameter) and a nationality-prediction API (name in the URL, JSON prediction back). Correctly identified the variable part of the URL as a parameter telling the API which specific thing to fetch/process.
+**Connections made:**
+- Walked his own Sanity-powered blog through the full pipeline unprompted: DNS → server → GET request to Sanity's endpoint → JSON response with per-field key-value pairs (title, slug, body, image) → browser renders it. Used this as his own explain-back example before the formal one.
+- Defined API in his own words: "an interface that lets browsers/programs programmatically access data elsewhere on the web" — accurate and concise.
+
+**Tangents worth remembering:**
+- He continues to test his understanding by extending concepts to new domains unprompted (AI chatbots as API clients) rather than waiting to be told — reinforce this by letting him reason it out before confirming, as done here.
+
+---
+
 <!-- TEMPLATE FOR FUTURE ENTRIES
 
 ## Lesson X.Y — Title
