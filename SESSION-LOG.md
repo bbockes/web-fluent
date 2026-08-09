@@ -123,6 +123,39 @@
 
 ---
 
+## Lesson 2.1 — Variables & types
+**Date:** 2026-08-09  
+**Key takeaways:**
+- Variable = labeled box holding a value; `const` locks it, `let` allows reassignment — default to `const`.
+- Core types landed: string (quotes), number (no quotes), boolean (`true`/`false` with no quotes — `"false"` is a string, not a boolean).
+- Cleared up console quirks: trailing `undefined` after declarations/`console.log` is normal; `clear` alone shows the function, `clear()` runs it.
+
+**Hands-on:** Browser Console — declared `name` (string), `years` (number), `knowsJavaScript` (boolean), logged all three.  
+**Connections made:**
+- Linked types back to JSON from 1.5 (same vocabulary, now "alive" in JS).
+
+**Tangents worth remembering:**
+- He asked unprompted how booleans differ from strings (quotes vs no quotes) — good instinct to interrogate syntax before accepting it. Keep leaving room for that.
+
+---
+
+## Lesson 2.2 — Functions
+**Date:** 2026-08-09  
+**Key takeaways:**
+- Function = reusable recipe: define once, call many times with different inputs.
+- Parameter = the blank filled in each call; `return` = the answer handed back.
+- Defining ≠ calling — writing `function shout(...) {}` doesn't run it; `shout("hello")` does.
+- Practiced string method `.toUpperCase()` as part of the hands-on.
+
+**Hands-on:** Wrote `shout(sentence)` returning uppercase + `!`; called three times via `console.log`.  
+**Connections made:**
+- Linked to CSS copy-paste pain as the motivation for reusable blocks.
+
+**Tangents worth remembering:**
+- Explain-back was a bit messy at first but landed after one cleanup pass — keep accepting rough drafts then sharpening terminology (parameter vs function header, call vs console.log).
+
+---
+
 <!-- TEMPLATE FOR FUTURE ENTRIES
 
 ## Lesson X.Y — Title

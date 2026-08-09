@@ -4,7 +4,7 @@
 > Claude reads this at the start of a lesson and tells me exactly what to check off at the end.
 
 ## CURRENT LESSON
-**2.1 — Variables & types**
+**2.3 — More functions / scope**
 
 ## Checklist
 
@@ -23,8 +23,8 @@
 - [X] 1.8 — Recap: draw the URL-to-page journey from memory
 
 ### Module 2 — JavaScript fundamentals
-- [ ] 2.1 — Variables & types
-- [ ] 2.2 — Functions
+- [X] 2.1 — Variables & types
+- [X] 2.2 — Functions
 - [ ] 2.3 — More functions / scope
 - [ ] 2.4 — Conditionals
 - [ ] 2.5 — Loops
