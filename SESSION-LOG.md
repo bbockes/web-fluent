@@ -91,6 +91,38 @@
 
 ---
 
+## Lesson 1.7 — Frontend vs. backend vs. database
+**Date:** 2026-08-09  
+**Key takeaways:**
+- Marked complete by request so we could move into the Module 1 recap (1.8). Core idea: frontend (what the user sees, client-side) → backend (server-side logic, secrets, decisions) → database (persistent data the backend reads/writes; frontend never talks to it directly).
+
+**Hands-on:** Skipped formal exercise; will be exercised inside 1.8's full URL-to-page journey (frontend/backend/database as the bottom layer).  
+**Connections made:**
+- Already demonstrated this shape in earlier sessions via his Sanity/React site (browser/React = frontend, Sanity API = backend-ish delivery, content store = database role).
+
+**Tangents worth remembering:**
+- If gaps show up in 1.8 on "who talks to the database," revisit the restaurant pantry analogy briefly rather than re-teaching the whole lesson.
+
+---
+
+## Lesson 1.8 — Recap: draw the URL-to-page journey from memory
+**Date:** 2026-08-09  
+**Key takeaways:**
+- Produced an unaided hand-drawn diagram covering: client/browser, DNS (WWW → IP), HTTP GET/response, response payloads (JSON or HTML/CSS/JS), datacenter/server scale, and frontend → backend → database.
+- Filled gaps verbally: status codes come with the response; page assembly happens in waves of follow-up GETs after HTML arrives; only the backend talks to the database (frontend never directly); third-party services (Clerk, Sanity, Stripe) are reached via APIs.
+- Minor precision note: he initially said status codes live "in the header" — clarified that status code is its own part of the response (alongside headers and body).
+
+**Hands-on:** Hand-drawn architecture diagram + verbal walkthrough of the three gap questions.  
+**Connections made:**
+- Reused Sanity/Clerk/Stripe as concrete examples of "backend talks to another service/database on the frontend's behalf via an API" — consistent with 1.3/1.6 sessions.
+- Module 1 complete; next is Module 2 (JS). Cash-in moments flagged: async/await + fetch (2.11–2.12).
+
+**Tangents worth remembering:**
+- Drawing + explain-back worked well for him — prefer that over pure prose for architecture recaps.
+- Speech-to-text sometimes turns GET → "Git"; treat as GET unless context is version control.
+
+---
+
 <!-- TEMPLATE FOR FUTURE ENTRIES
 
 ## Lesson X.Y — Title

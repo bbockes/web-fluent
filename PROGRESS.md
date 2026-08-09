@@ -4,7 +4,7 @@
 > Claude reads this at the start of a lesson and tells me exactly what to check off at the end.
 
 ## CURRENT LESSON
-**1.7 — Frontend vs. backend vs. database**
+**2.1 — Variables & types**
 
 ## Checklist
 
@@ -19,8 +19,8 @@
 - [X] 1.4 — Domains, DNS, IP addresses
 - [X] 1.5 — JSON
 - [X] 1.6 — What an API actually is
-- [ ] 1.7 — Frontend vs. backend vs. database
-- [ ] 1.8 — Recap: draw the URL-to-page journey from memory
+- [X] 1.7 — Frontend vs. backend vs. database
+- [X] 1.8 — Recap: draw the URL-to-page journey from memory
 
 ### Module 2 — JavaScript fundamentals
 - [ ] 2.1 — Variables & types
